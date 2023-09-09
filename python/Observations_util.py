@@ -1,3 +1,13 @@
+"""
+Author: Thomas Sangrey
+Date:   09/10/2023
+Name: Observations_util.py
+Summary:
+    A set of observational procedures and functions for use by flake.py. These are used
+    to curate and analyze observational and or meteorological data in cunjunction with
+    FLake simulations run in fortran.
+"""
+
 import f90nml
 import ctypes as ct
 import numpy as np
