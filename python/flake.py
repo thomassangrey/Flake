@@ -1,3 +1,13 @@
+"""
+Author: Thomas Sangrey
+Date:   09/10/2023
+Name: flake.py
+Summary:
+    Provides key driving components for running flake simulations and for preparing
+    some meteorological input for the FLake simulator. Some flux variables like downware
+    longwave atmospheric flux are caclculated here. The procedure assemble_inputs(...)
+    prepares a ctypes connection between python and flake's fortran code.
+"""
 import f90nml
 import ctypes as ct
 import numpy as np
