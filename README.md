@@ -72,11 +72,12 @@ Getting started:
    accordingly for subsequent analysis and only a subset of the full lake surface water temperature data
    are suitable for use as an observational constraint of lswt on any given day.
 
-![meteo](images/roi.png)
+![meteo](images/lswt_detail2.png)
+
 Here is an example of the same lake (GLOBOLAKE ID 0000000012), but showing only the region of interest
 with qualifying pixels. All other pixels are masked.
 
-![meteo](images/lswt_detail2.png)
+![meteo](images/roi.png)
 
 And here are a few years (1995-1997) of satellite-derived lake surface water temperature after filtering
-![meteo](images/satellite_lwst2.png)
+![meteo](images/satellite_lsw2.png)
