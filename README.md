@@ -1,6 +1,8 @@
 # Flake
 A package to explore and nudge a one-dimensional lake model based on FLake (Mironov D.V., 2008)
 
+The flake simulator (authored by Mironov in Fortran) is driven by a set of analysis scripts (authored by Sangrey in Python) 
+
 Flake requires meteorological forcing to compute necessary lw/sw atmospherical fluxes and sensible
 heat fluxes. Minimum meteorological inputs are:
 
