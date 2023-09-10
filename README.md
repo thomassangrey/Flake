@@ -16,8 +16,12 @@ v) solar flux (short wave),
 
 vi) downward atmospheric long-wave solar flux.
 
+![meteo](images/meteo_FE.png)
+
 Output variables are surface temperature, mixed layer depth, mixed layer temperature, bottom
 temperature, and others.
+
+![meteo](images/flake_sim.png)
 
 This package uses ctypes to "tunnel" from a python main program (flake.py) to the Flake simulator
 (fortran files in in SRC)
@@ -60,8 +64,19 @@ Getting started:
    It is useful for preparing a python dict() (structure) that contains meta information pertaining
    to candidate lakes for further analysis. See >>help(select_lake).
 
-9) Obs.UT_get_Lake_temp_vs_time() produces the skin temperature or lswt (lake surface water temperature, uncorrected) 
+   ![meteo](images/select_lakes.png)
+
+10) Obs.UT_get_Lake_temp_vs_time() produces the skin temperature or lswt (lake surface water temperature, uncorrected) 
    based on satellite-derived data (http://www.laketemp.net/home/). A few example days are plotted showing
    available unmasked data, quality level, uncertainty level, etc. of satellite data. Data are filtered
    accordingly for subsequent analysis and only a subset of the full lake surface water temperature data
    are suitable for use as an observational constraint of lswt on any given day.
+
+![meteo](images/roi.png)
+Here is an example of the same lake (GLOBOLAKE ID 0000000012), but showing only the region of interest
+with qualifying pixels. All other pixels are masked.
+
+![meteo](images/lswt_detail2.png)
+
+And here are a few years (1995-1997) of satellite-derived lake surface water temperature after filtering
+![meteo](images/satellite_lwst2.png)
