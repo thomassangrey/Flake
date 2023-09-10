@@ -53,7 +53,7 @@ Getting started:
 
 6) Comment/uncomment lines as necessary to perform other unit tests
 
-    i) Use _FE for demonstration. _FE means "flake example" and the unit tests can be 
+    i) Use _FE for demonstration. _FE means "flake example" and the unit tests can be used and adapted as needed. 
 
    ii) if seeking to use UT_assemble_inputs_ERA5(), then ERA5.nc reanalysis must be used. It usually
        lives in METEO/ERA5_NorEur/ERA5.nc, but it is generally a Gb or larger and therefore
