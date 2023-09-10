@@ -18,6 +18,7 @@ v) solar flux (short wave),
 
 vi) downward atmospheric long-wave solar flux.
 
+Below are meteorological records for the Berlin area during 2017. These data are used to force the Flake model for the same period (see below).
 ![meteo](images/meteo_FE.png)
 
 Output variables are surface temperature, mixed layer depth, mixed layer temperature, bottom
