@@ -447,12 +447,12 @@ def UT_assemble_inputs_ERA5():
     return plt2
 
 def main():
-    #Obs.UT_select_lake()
-    #Obs.UT_get_Lake_temp_vs_time()
+    Obs.UT_select_lake()
+    Obs.UT_get_Lake_temp_vs_time()
     #plt_ERA5 = UT_assemble_inputs_ERA5()
     #plt_ERA5.show(block=True)
-    plt_FE = UT_assemble_inputs_FE()
-    plt_FE.show(block=True)
+    #plt_FE = UT_assemble_inputs_FE()
+    #plt_FE.show(block=True)
     
 
 if __name__ == "__main__":

@@ -811,7 +811,7 @@ def UT_get_Lake_temp_vs_time():
     """
     startday = "1999-01-03-00-00-00"
     endday = "2016-12-30-12-00-00"
-    lake_file = "LAKE00000518-GloboLakes-L3S-LSWT-v4.0-fv01.0.nc"
+    lake_file = "LAKE00000012-GloboLakes-L3S-LSWT-v4.0-fv01.0.nc"
     rel_path = "LAKES/GLOBO/LAKES_vs_time"
     lake_file_fp = join(cwd(),rel_path, lake_file)
     #=========== <cavu_thresh> (float) defines visibility of atmosphere. 1 is unlimited, 0 is full cover.
